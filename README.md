@@ -30,12 +30,12 @@ Grant appropriate permissions:
 chmod +x backup.sh
 ```
 
-To create a backup, run (this will create a backup `backup.tar.gz`):
+To create a backup, run the following command in the project directory (this will create a backup `backup.tar.gz`):
 ```
 ~/backup.sh create
 ```
 
-To restore a backup, run:
+To restore a backup, run the following command in the project directory:
 ```
 ~/backup.sh restore
 ```
